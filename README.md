@@ -17,9 +17,9 @@ This repository contains the source code for a temperature converter website, de
 ## How to Use
 
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
-   ````
+```bash
 git clone https://github.com/abdulmoiz01001/temperature-web.git
-``
+```
 
 3. **Open the Project**: Navigate to the project directory and open the `index.html` file in your preferred web browser.
 
