@@ -1,0 +1,162 @@
+/* // write a css for index.html */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: wheat;
+   min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: 10px auto;
+  /* background-color: black; */
+  overflow: hidden;
+}
+.container h1{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 3rem;
+    color: #4caf50;
+
+}
+.input-temp-box h1{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+    color: #4caf50;
+
+}
+
+.input-temp-box{
+    width: 80%;
+    padding: 10px;
+    margin: 80px auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.input-temp-box input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-temp-box button{
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.input-temp-box button:active{
+    transform: scale(1.009);
+}
+
+
+.select-temp{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.select-temp select{
+    width:40%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.select-temp h3{
+    margin: 0;
+}
+
+.notification-toast{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transform: scale(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+.show{
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.notification-toast-warning{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #ff9800;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transform: scale(0);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.show-warning{
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.select-temp select option{
+    padding: 10px;
+    height: 40px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media (max-width:600px){
+    .select-temp{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .select-temp select{
+        width: 90%;
+    }
+    .container h1{
+        font-size: 1.5rem;
+    }
+    .input-temp-box{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .container h1{
+        font-size: 2rem;
+    }
+    .input-temp-box h1{
+        font-size: 1.5rem;
+    }
+}

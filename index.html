@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="input-temp-box">
+            <h1 id="selection-heading">Choose Temperature Covnversion</h1>
+            <input type="number" value='' id="temp-input" placeholder="Enter Temperature">
+            <div class="select-temp" >
+                <select name="temp"  id="input-temp-types">
+                <option selected disabled >Input Temperature Type</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+                <option value="celsius">Celsius</option>       
+            </select>
+            <h3>To</h3>
+            <select name="temp"  id="output-temp-types">
+                <option selected disabled >Output Temperature Type</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+                <option value="celsius">Celsius</option>
+                
+                
+            </select>
+        </div>
+            <button onclick="setTemp()" id="convert-btn">Convert</button>
+            <input disabled type="number" id="temp-output" placeholder="Enter Fahrenheit">
+        </div>  
+    </div>
+
+    <div id="notification-toast-id" class="notification-toast" >
+        <h2 id="toast-msg">Temperature Converted</h2>
+    </div>
+    <div id="notification-toast-warning-id" class="notification-toast-warning" >
+        <h2 id="toast-msg-warning"></h2>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
