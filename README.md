@@ -17,27 +17,21 @@ This repository contains the source code for a temperature converter website, de
 ## How to Use
 
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
-https://github.com/abdulmoiz01001/temperature-web.git
+   ````
+git clone https://github.com/abdulmoiz01001/temperature-web.git
+``
 
-2. **Open the Project**: Navigate to the project directory and open the `index.html` file in your preferred web browser.
+3. **Open the Project**: Navigate to the project directory and open the `index.html` file in your preferred web browser.
 
-3. **Start Converting Temperatures**: Enter a temperature value in one unit (Celsius, Fahrenheit, or Kelvin), and the website will instantly display the converted values in the other two units.
-
-## Contributions
-
-Contributions to this project are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+4. **Start Converting Temperatures**: Select the input Temperature unit and Output Temperature unit and then Enter a Temperature and you will get an output in selected unit.
 
 ## Acknowledgements
 
 - This project was inspired by the need for a simple yet effective temperature converter tool.
-- Special thanks to [Name], [Name], and [Name] for their contributions and feedback.
+
 
 ## Contact
 
-For any inquiries or support, please contact [Your Name] at [your-email@example.com].
+For any inquiries or support, please contact Abdul Moiz at profession.ai01001@hotmail.com.
 
 Thank you for using the Temperature Converter Website! We hope you find it useful and easy to use.
